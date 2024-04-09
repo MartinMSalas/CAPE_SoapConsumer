@@ -13,7 +13,7 @@ public class CountryClient extends WebServiceGatewaySupport {
 
     private static final Logger log = LoggerFactory.getLogger(CountryClient.class);
 
-    public GetCountryResponse getCountry(String country) {
+        public GetCountryResponse getCountry(String country) {
 
         GetCountryRequest request = new GetCountryRequest();
         request.setName(country);
